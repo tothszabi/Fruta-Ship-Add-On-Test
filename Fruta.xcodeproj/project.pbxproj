@@ -103,7 +103,7 @@
 		610F553E26158DE2001D3AA0 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CF26157D870046AAA9 /* AnimatableFontModifier.swift */; };
 		610F554126158DE2001D3AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6123FF244E8B32004DDFF7 /* Assets.xcassets */; };
 		610F554326158DE2001D3AA0 /* NutritionFactsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610F546E2615818D001D3AA0 /* NutritionFactsAssets.xcassets */; };
-		610F556026158E0B001D3AA0 /* Fruta iOS Widgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 610F554F26158E0A001D3AA0 /* Fruta iOS Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		610F556026158E0B001D3AA0 /* Fruta iOS Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 610F554F26158E0A001D3AA0 /* Fruta iOS Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		610F556B26158F7F001D3AA0 /* FrutaWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1D726157D870046AAA9 /* FrutaWidgets.swift */; };
 		610F556C26158F7F001D3AA0 /* RewardsCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1D526157D870046AAA9 /* RewardsCardWidget.swift */; };
 		610F556E26158F97001D3AA0 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CC26157D870046AAA9 /* BubbleView.swift */; };
@@ -156,7 +156,7 @@
 		610F55A226158FEA001D3AA0 /* AppTabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611716C72469DF41000FFDD9 /* AppTabNavigation.swift */; };
 		610F55A42615900A001D3AA0 /* FeaturedSmoothieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1D626157D870046AAA9 /* FeaturedSmoothieWidget.swift */; };
 		610F55A526159116001D3AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6123FF244E8B32004DDFF7 /* Assets.xcassets */; };
-		610F55B8261592F9001D3AA0 /* Fruta macOS Widgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 610F55AA261592F8001D3AA0 /* Fruta macOS Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		610F55B8261592F9001D3AA0 /* Fruta macOS Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 610F55AA261592F8001D3AA0 /* Fruta macOS Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		610F55BD261593B9001D3AA0 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CA26157D870046AAA9 /* StepperView.swift */; };
 		610F55BE261593B9001D3AA0 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CF26157D870046AAA9 /* AnimatableFontModifier.swift */; };
 		610F55BF261593B9001D3AA0 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CB26157D870046AAA9 /* FlipView.swift */; };
@@ -471,26 +471,26 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		610F556426158E0B001D3AA0 /* Embed App Extensions */ = {
+		610F556426158E0B001D3AA0 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				610F556026158E0B001D3AA0 /* Fruta iOS Widgets.appex in Embed App Extensions */,
+				610F556026158E0B001D3AA0 /* Fruta iOS Widgets.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		610F55BC261592F9001D3AA0 /* Embed App Extensions */ = {
+		610F55BC261592F9001D3AA0 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				610F55B8261592F9001D3AA0 /* Fruta macOS Widgets.appex in Embed App Extensions */,
+				610F55B8261592F9001D3AA0 /* Fruta macOS Widgets.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		612F3D972615A2F600137D77 /* Embed App Clips */ = {
@@ -514,14 +514,14 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0DC7FDB27B72FDC00A6417B /* Embed App Extensions */ = {
+		E0DC7FDB27B72FDC00A6417B /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E0DC802527B7307600A6417B /* Embed Frameworks */ = {
@@ -534,14 +534,14 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0DC802627B7307600A6417B /* Embed App Extensions */ = {
+		E0DC802627B7307600A6417B /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -931,7 +931,7 @@
 				610F54FC26158DDB001D3AA0 /* Frameworks */,
 				610F54FD26158DDB001D3AA0 /* Resources */,
 				610F550226158DDB001D3AA0 /* Embed Frameworks */,
-				610F556426158E0B001D3AA0 /* Embed App Extensions */,
+				610F556426158E0B001D3AA0 /* Embed Foundation Extensions */,
 				612F3D972615A2F600137D77 /* Embed App Clips */,
 			);
 			buildRules = (
@@ -953,7 +953,7 @@
 				610F553F26158DE2001D3AA0 /* Frameworks */,
 				610F554026158DE2001D3AA0 /* Resources */,
 				610F554526158DE2001D3AA0 /* Embed Frameworks */,
-				610F55BC261592F9001D3AA0 /* Embed App Extensions */,
+				610F55BC261592F9001D3AA0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -1024,7 +1024,7 @@
 				E0DC7FD127B72FDC00A6417B /* Frameworks */,
 				E0DC7FD227B72FDC00A6417B /* Resources */,
 				E0DC7FDA27B72FDC00A6417B /* Embed Frameworks */,
-				E0DC7FDB27B72FDC00A6417B /* Embed App Extensions */,
+				E0DC7FDB27B72FDC00A6417B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -1043,7 +1043,7 @@
 				E0DC801C27B7307600A6417B /* Frameworks */,
 				E0DC801D27B7307600A6417B /* Resources */,
 				E0DC802527B7307600A6417B /* Embed Frameworks */,
-				E0DC802627B7307600A6417B /* Embed App Extensions */,
+				E0DC802627B7307600A6417B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -1062,7 +1062,7 @@
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					610F554E26158E0A001D3AA0 = {
@@ -1713,6 +1713,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1778,6 +1779,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1888,6 +1890,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "macOS/Info-Extended.plist";
@@ -1921,6 +1924,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "macOS/Info-Extended.plist";
@@ -2020,6 +2024,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2054,6 +2059,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2096,7 +2102,6 @@
 				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -2137,7 +2142,6 @@
 				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -2247,6 +2251,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -2277,6 +2282,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
