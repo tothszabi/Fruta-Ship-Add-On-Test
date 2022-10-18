@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318F664828FF058F00F84E47 /* AppClipAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318F664528FF058F00F84E47 /* AppClipAssets.xcassets */; };
 		610F54C826158DDB001D3AA0 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C726157D870046AAA9 /* PaymentButton.swift */; };
 		610F54C926158DDB001D3AA0 /* CountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CD26157D870046AAA9 /* CountButton.swift */; };
 		610F54CA26158DDB001D3AA0 /* CardActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CE26157D870046AAA9 /* CardActionButton.swift */; };
@@ -209,7 +210,6 @@
 		610F55F62615946A001D3AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6123FF244E8B32004DDFF7 /* Assets.xcassets */; };
 		612F3D932615A2F600137D77 /* Fruta iOS Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 612F3D842615A2F400137D77 /* Fruta iOS Clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		612F3D992615A31A00137D77 /* FrutaAppClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F3D982615A31A00137D77 /* FrutaAppClip.swift */; };
-		612F3D9A2615A32300137D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6123FF244E8B32004DDFF7 /* Assets.xcassets */; };
 		612F3D9B2615A32700137D77 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CA26157D870046AAA9 /* StepperView.swift */; };
 		612F3D9C2615A32700137D77 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CB26157D870046AAA9 /* FlipView.swift */; };
 		612F3D9D2615A32700137D77 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CC26157D870046AAA9 /* BubbleView.swift */; };
@@ -547,6 +547,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		318F664528FF058F00F84E47 /* AppClipAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppClipAssets.xcassets; sourceTree = "<group>"; };
 		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E6123FD244E8B32004DDFF7 /* FrutaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutaApp.swift; sourceTree = "<group>"; };
 		5E6123FF244E8B32004DDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -905,6 +906,7 @@
 				A3C2690F262FE1020093B9DF /* InfoPlist.strings */,
 				A3C268FE262FE0060093B9DF /* Localizable.stringsdict */,
 				5E6123FF244E8B32004DDFF7 /* Assets.xcassets */,
+				318F664528FF058F00F84E47 /* AppClipAssets.xcassets */,
 				A3DC6E392657241A008724A1 /* Ingredients.strings */,
 			);
 			path = Resources;
@@ -1164,8 +1166,8 @@
 				A3C26909262FE1020093B9DF /* InfoPlist.strings in Resources */,
 				A3C268EF262FE0030093B9DF /* Localizable.strings in Resources */,
 				A31FA5B626323F9400FC46C1 /* NutritionalItems.json in Resources */,
-				612F3D9A2615A32300137D77 /* Assets.xcassets in Resources */,
 				A3C268F8262FE0060093B9DF /* Localizable.stringsdict in Resources */,
+				318F664828FF058F00F84E47 /* AppClipAssets.xcassets in Resources */,
 				612F3DB22615A33A00137D77 /* NutritionFactsAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
